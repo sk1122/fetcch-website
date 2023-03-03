@@ -74,11 +74,13 @@ const IntegrationSection = () => {
               </Button>
             </div>
           </div>
-          <img
-            src={imagePath}
-            alt="App screenshot"
-            className="duration-200 w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0"
-          />
+          <div className="w-full flex justify-end items-center">
+            <img
+              src={imagePath}
+              alt="App screenshot"
+              className="duration-200 w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0"
+            />
+          </div>
         </div>
       </div>
     </div>

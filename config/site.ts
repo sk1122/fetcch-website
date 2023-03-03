@@ -18,8 +18,8 @@ export const siteRoutes = {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "WIAM",
-  description: "Analytics for Web3",
+  name: "Fetcch",
+  description: "Unified Payments Layer",
   mainNav: [
     {
       title: "Home",
@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/0xv3n0m_",
-    github: "https://github.com/glitch-afk",
+    twitter: "https://twitter.com/FetcchX",
+    github: "https://github.com/FetcchX",
   },
 }

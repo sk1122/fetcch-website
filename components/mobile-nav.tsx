@@ -38,13 +38,13 @@ const MobileNav = ({ mobileNavItems, children }: MobileMavProps) => {
       <nav className="mt-8 flex flex-col items-start space-y-10 px-6">
         {mobileNavItems?.length
           ? mobileNavItems.map((item, idx) => (
-              <Link
+              <a
                 key={idx}
                 href={item.disabled ? "#" : (item.href as string)}
                 className="customUnderline text-xl font-medium"
               >
                 {item.title}
-              </Link>
+              </a>
             ))
           : null}
       </nav>

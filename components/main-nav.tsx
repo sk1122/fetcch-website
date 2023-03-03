@@ -12,13 +12,13 @@ const MainNav = ({ mainNavClasses, mainNavItem }: MainNavProps) => {
   return (
     <nav className={cn("", mainNavClasses)}>
       {mainNavItem.map((item, idx) => (
-        <Link
+        <a
           href={item.disabled ? "#" : (item.href as string)}
           key={idx}
           className="text-dark-50 text-sm font-semibold transition-colors duration-300 hover:text-white"
         >
           {item.title}
-        </Link>
+        </a>
       ))}
     </nav>
   )

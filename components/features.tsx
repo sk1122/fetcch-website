@@ -47,37 +47,37 @@ const FeaturesSection = () => {
       <div className="mt-20 grid w-full grid-cols-12 gap-4">
         {/* row 1 */}
         
-        <div className="flex space-y-3 flex-col border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-[508px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
-          <img src={features[1].image} alt="" className="w-full rounded-2xl h-[341px]" />
-          <div className="flex flex-col space-y-2 p-6 w-full text-center">
+        <div className="flex space-y-3 flex-col border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-full sm:h-[578px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
+          <img src={features[1].image} alt="" className="w-full rounded-2xl h-fit" />
+          <div className="flex flex-col space-y-2 w-full text-center">
             <h1 className="text-3xl font-extrabold sm:text-3xl">{features[1].name}</h1>
             <p className="text-lg w-full">{features[1].desc}</p>
           </div>
         </div>
-        <div className="flex space-y-3 flex-col border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-[508px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
-          <img src={features[4].image} alt="" className="w-full rounded-2xl h-[341px]" />
+        <div className="flex space-y-3 flex-col border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-full sm:h-[578px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
+          <img src={features[4].image} alt="" className="w-full rounded-2xl h-fit" />
           <div className="flex flex-col space-y-2 p-6 w-full text-center">
             <h1 className="text-3xl font-extrabold sm:text-3xl">{features[4].name}</h1>
             <p className="text-lg w-full">{features[4].desc}</p>
           </div>
         </div>
-        <div className="flex space-y-3 flex-col border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-[508px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
-          <img src={features[2].image} alt="" className="w-full rounded-2xl h-[341px]" />
+        <div className="flex space-y-3 flex-col border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-full sm:h-[578px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
+          <img src={features[2].image} alt="" className="w-full rounded-2xl h-fit" />
           <div className="flex flex-col space-y-2 p-6 w-full text-center">
             <h1 className="text-3xl font-extrabold sm:text-3xl">{features[2].name}</h1>
             <p className="text-lg w-full">{features[2].desc}</p>
           </div>
         </div>
-        <div className="flex space-y-3 flex-col justify-between items-between border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-[508px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
-          <img src={features[3].image} alt="" className="w-full rounded-2xl" />
+        <div className="flex space-y-3 flex-col justify-between items-between border-dark-400 bg-dark-600/50 hover:border-dark-300 col-span-full h-[578px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-6">
+          <img src={features[3].image} alt="" className="w-full rounded-2xl h-[423px]" />
           <div className="flex flex-col space-y-2 p-6 w-full text-center">
             <h1 className="text-3xl font-extrabold sm:text-3xl">{features[3].name}</h1>
             <p className="text-lg w-full">{features[3].desc}</p>
           </div>
         </div>
-        <div className="flex justify-center items-center border-dark-400 space-x-5 bg-dark-600/50 hover:border-dark-300 col-span-full h-[508px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-full">
-          <img src={features[0].image} alt="" className="w-fit h-full" />
-          <div className="flex flex-col justify-center space-y-6 ml-2">
+        <div className="flex flex-col sm:flex-row justify-center items-center border-dark-400 space-x-5 bg-dark-600/50 hover:border-dark-300 col-span-full h-[620px] sm:h-[508px] rounded-2xl border transition-colors duration-300 hover:opacity-100 xl:col-span-full">
+          <img src={features[0].image} alt="" className="w-full sm:w-fit sm:h-full" />
+          <div className="flex flex-col  justify-center space-y-6 ml-2 text-center sm:text-left">
             <h1 className="text-3xl font-extrabold sm:text-3xl">{features[0].name}</h1>
             <p className="text-lg w-[30ch]">{features[0].desc}</p>
           </div>

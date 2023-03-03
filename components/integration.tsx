@@ -74,12 +74,10 @@ const IntegrationSection = () => {
               </Button>
             </div>
           </div>
-          <Image
+          <img
             src={imagePath}
             alt="App screenshot"
-            className="duration-200 w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0"
-            width={200}
-            height={400}
+            className="duration-200 w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0"
           />
         </div>
       </div>
